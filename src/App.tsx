@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import FirstBlock from "./components/first_block/FirstBlock";
 import DescriptionBlock from "./components/descriptionBlock/DescriptionBlock";
+import ProductsBlock from "./components/products-block/Products-block";
 
 
 function App() {

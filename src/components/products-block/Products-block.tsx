@@ -9,14 +9,14 @@ const ProductsBlock = () => {
     return (
         <div className={"rail"}>
             <div className={"train"}>
-            <ProductBlock productImg="./img/imgGel.png" productPrice={"2 480 руб"} prductInfo={"Гель для тела для похудения"}  productName={"Slimming Gel Body"}/>
-             <ProductBlock productImg="./img/img_1.png" productPrice={"2 480 руб"} prductInfo={"Гель для тела для похудения"}  productName={"Slimming Gel Body"}/>
-            <ProductBlock productImg="./img/imgGel.png" productPrice={"2 480 руб"} prductInfo={"Гель для тела для похудения"}  productName={"Slimming Gel Body"}/>
-            <ProductBlock productImg="./img/img_1.png"  productPrice={"2 480 руб"} prductInfo={"Гель для тела для похудения"}  productName={"Slimming Gel Body"}/>
-            <ProductBlock productImg="./img/imgGel.png" productPrice={"2 480 руб"} prductInfo={"Гель для тела для похудения"}  productName={"Slimming Gel Body"}/>
-            <ProductBlock productImg="./img/imgGel.png" productPrice={"2 480 руб"} prductInfo={"Гель для тела для похудения"}  productName={"Slimming Gel Body"}/>
-            <ProductBlock productImg="./img/imgGel.png" productPrice={"2 480 руб"} prductInfo={"Гель для тела для похудения"}  productName={"Slimming Gel Body"}/>
-            <ProductBlock productImg="./img/imgGel.png" productPrice={"2 480 руб"} prductInfo={"Гель для тела для похудения"}  productName={"Slimming Gel Body"}/>
+            <ProductBlock productImg="./img/imgGel.png" productPrice={"32.50$"} prductInfo={"slimming body gel"}  productName={" Gel "}/>
+             <ProductBlock productImg="./img/img_1.png" productPrice={"32.50$"} prductInfo={"slimming body gel"}  productName={" Gel "}/>
+            <ProductBlock productImg="./img/imgGel.png" productPrice={"32.50$"} prductInfo={"slimming body gel"}  productName={" Gel "}/>
+            <ProductBlock productImg="./img/img_1.png"  productPrice={"32.50$"} prductInfo={"slimming body gel"}  productName={" Gel "}/>
+            <ProductBlock productImg="./img/imgGel.png" productPrice={"32.50$"} prductInfo={"slimming body gel"}  productName={" Gel "}/>
+            <ProductBlock productImg="./img/imgGel.png" productPrice={"32.50$"} prductInfo={"slimming body gel"}  productName={" Gel "}/>
+            <ProductBlock productImg="./img/imgGel.png" productPrice={"32.50$"} prductInfo={"slimming body gel"}  productName={" Gel "}/>
+            <ProductBlock productImg="./img/imgGel.png" productPrice={"32.50$"} prductInfo={"slimming body gel"}  productName={" Gel "}/>
             </div>
         </div>
     )
