@@ -1,0 +1,90 @@
+.row{
+ display: flex;
+}
+
+.page-footer{
+    background-color: white;
+}
+.container{
+    display: flex;
+    color: black;
+    flex-direction: column;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 200px;
+}
+.social img{
+    width: 11.82px;
+    height: 11.82px;
+}
+.telegram{
+    width: 27.82px;
+    height: 27.82px;
+    background-color: #2F89CE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fk{
+    width: 27.82px;
+    height: 27.82px;
+    background-color: #F79A38;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ok{
+    width: 27.82px;
+    height: 27.82px;
+    background-color: #F79A38;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whats{
+    width: 27.82px;
+    height: 27.82px;
+    background-color: #48C95F;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inst{
+    width: 27.82px;
+    height: 27.82px;
+    background-color: rgba(214, 71, 99, 0.87);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.vibe{
+    width: 27.82px;
+    height: 27.82px;
+    background-color:#7C509A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.pay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 450px;
+    height: 150px;
+    top: 50px;
+}
+.levo{
+    position: relative;
+    right: 200px;
+}
