@@ -1,5 +1,16 @@
-
-
 p, h2, h3,  h4,h5,h6{
     color: black !important;
+}
+.train {
+    display: flex;
+    width: 3120px;
+    height: 470px;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: 'Gilroy';
+}
+.rail{
+    height: 470px;
+    width: 6240px;
+
 }

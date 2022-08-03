@@ -3,6 +3,7 @@ import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import FirstBlock from "./components/first_block/FirstBlock";
+import ProductsBlock from "./components/products-block/Products-block";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Navbar/>
       <FirstBlock/>
         <Footer/>
+        {/*<ProductsBlock />*/}
     </>
   );
 }

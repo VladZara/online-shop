@@ -4,7 +4,7 @@ import ReactDom from "react-dom";
 
 const ProductBlock = (props :any) => {
     return (
-        <div className={"card"}>
+        <div className={"cardPr"}>
             <img src={props.productImg}/>
 
             <div className={"texts"}>
