@@ -1,14 +1,19 @@
-.nav-wrapper{
+.header-wrapper{
     background-color: #323232;
+    /*height: 50px;*/
 }
-.gorod{
+.city-header{
     display: flex;
     position: relative;
     left: 150px;
 }
-.zvonok{
+.call-header{
     display: flex;
     position: relative;
     left: 1075px;
 }
+.header-text{
+    color: #FFFFFF;
+}
+
 
