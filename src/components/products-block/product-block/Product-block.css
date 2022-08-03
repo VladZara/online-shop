@@ -22,6 +22,24 @@ display: flex;
     /*width: 100%;*/
 height: 20px;
 }
-.info p {
+.pricess h6{
+    font-size: 13px;
+}
+.info p ,.cardPr h6{
     color: #5C5C66 !important;
+}
+
+.sell{
+    background-color: red;
+    color: #FFFFFF;
+    width: 56px;
+    height: 56px;
+    position: relative;
+    margin-left: -235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricess{
+    display: flex;
 }

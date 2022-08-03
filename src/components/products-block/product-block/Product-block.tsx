@@ -5,17 +5,19 @@ import ReactDom from "react-dom";
 const ProductBlock = (props :any) => {
     return (
         <div className={"cardPr"}>
+            <div className={"sell"}>SELL</div>
             <img src={props.productImg}/>
 
             <div className={"texts"}>
                 <div className={"info"}>
-                    <h4>{props.productName}</h4>
+                    <h5>{props.productName}</h5>
                     <p>{props.prductInfo}</p>
                 </div>
-<div>
-    <h5>{props.productPrice}</h5>
-</div>
+            <div className={"pricess"}>
+                <p>{props.productPrice}</p>
+    <h6>{props.productPrice}</h6>
 
+            </div>
             </div>
         </div>
     )

@@ -9,14 +9,14 @@ const ProductsBlock = () => {
     return (
         <div className={"rail"}>
             <div className={"train"}>
-            <ProductBlock productImg="./img/imgGel.png" productPrice={"200.00 lei"} prductInfo={"Asta este crem dddddddddddddddd"}  productName={"Name product"}/>
-            <ProductBlock productImg="./img/img_1.png" productPrice={"200.00 lei"} prductInfo={"Asta este crem dddddddddddddddd"}  productName={"Name product"}/>
-            <ProductBlock productImg="./img/imgGel.png" productPrice={"200.00 lei"} prductInfo={"Asta este crem dddddddddddddddd"}  productName={"Name product"}/>
-            <ProductBlock productImg="./img/img_1.png" productPrice={"200.00 lei"} prductInfo={"Asta este crem dddddddddddddddd"}  productName={"Name product"}/>
-            <ProductBlock productImg="./img/imgGel.png" productPrice={"200.00 lei"} prductInfo={"Asta este crem dddddddddddddddd"}  productName={"Name product"}/>
-            <ProductBlock productImg="./img/imgGel.png" productPrice={"200.00 lei"} prductInfo={"Asta este crem dddddddddddddddd"}  productName={"Name product"}/>
-            <ProductBlock productImg="./img/imgGel.png" productPrice={"200.00 lei"} prductInfo={"Asta este crem dddddddddddddddd"}  productName={"Name product"}/>
-            <ProductBlock productImg="./img/imgGel.png" productPrice={"200.00 lei"} prductInfo={"Asta este crem dddddddddddddddd"}  productName={"Name product"}/>
+            <ProductBlock productImg="./img/imgGel.png" productPrice={"2 480 руб"} prductInfo={"Гель для тела для похудения"}  productName={"Slimming Gel Body"}/>
+             <ProductBlock productImg="./img/img_1.png" productPrice={"2 480 руб"} prductInfo={"Гель для тела для похудения"}  productName={"Slimming Gel Body"}/>
+            <ProductBlock productImg="./img/imgGel.png" productPrice={"2 480 руб"} prductInfo={"Гель для тела для похудения"}  productName={"Slimming Gel Body"}/>
+            <ProductBlock productImg="./img/img_1.png"  productPrice={"2 480 руб"} prductInfo={"Гель для тела для похудения"}  productName={"Slimming Gel Body"}/>
+            <ProductBlock productImg="./img/imgGel.png" productPrice={"2 480 руб"} prductInfo={"Гель для тела для похудения"}  productName={"Slimming Gel Body"}/>
+            <ProductBlock productImg="./img/imgGel.png" productPrice={"2 480 руб"} prductInfo={"Гель для тела для похудения"}  productName={"Slimming Gel Body"}/>
+            <ProductBlock productImg="./img/imgGel.png" productPrice={"2 480 руб"} prductInfo={"Гель для тела для похудения"}  productName={"Slimming Gel Body"}/>
+            <ProductBlock productImg="./img/imgGel.png" productPrice={"2 480 руб"} prductInfo={"Гель для тела для похудения"}  productName={"Slimming Gel Body"}/>
             </div>
         </div>
     )
