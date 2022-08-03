@@ -1,7 +1,6 @@
 .row{
- display: flex;
+display: flex;
 }
-
 .page-footer{
     background-color: white;
 }
