@@ -1,0 +1,19 @@
+.header-wrapper{
+    background-color: #323232;
+    /*height: 50px;*/
+}
+.city-header{
+    display: flex;
+    position: relative;
+    left: 150px;
+}
+.call-header{
+    display: flex;
+    position: relative;
+    left: 1075px;
+}
+.header-text{
+    color: #FFFFFF;
+}
+
+

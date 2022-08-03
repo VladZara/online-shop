@@ -23,7 +23,7 @@ nav ul li{
     height: 60px;
 }
 
-nav ul li a:hover {
+.hover-underline:hover {
     font-weight: lighter;
     border-bottom: 3px solid deepskyblue;
     font-family: 'Gilroy';
