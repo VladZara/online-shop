@@ -1,0 +1,51 @@
+.nav-wrapper{
+    position: absolute;
+    width: 100%;
+    height: 136px;
+    left: 0;
+    top: 0;
+    background: #FFFFFF;
+}
+.navbar-img{
+    height: 38px;
+    width: 124px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+nav ul li a{
+    font-family: 'Gilroy';
+    color: #000000;
+}
+nav ul li{
+    font-family: 'Gilroy';
+    color: #000000;
+    height: 60px;
+}
+
+nav ul li a:hover {
+    font-weight: lighter;
+    border-bottom: 3px solid deepskyblue;
+    font-family: 'Gilroy';
+    font-style: normal;
+    background: inherit;
+}
+nav ul a {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: #fff;
+    display: initial;
+    margin: 0 15px;
+    padding: 0 0 7px 0;
+    cursor: pointer;
+}
+nav ul li img{
+    cursor: pointer;
+}
+
+.icon-img{
+    box-sizing: border-box;
+     width: 20px;
+    margin: 20px;
+}
