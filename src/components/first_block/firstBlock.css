@@ -1,0 +1,38 @@
+.container-block{
+ height: 100%;
+    width: 100%;
+}
+.card-title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 150%;
+    color: black;
+}
+.block-image{
+    width: 100%;
+}
+.text-block{
+    position: absolute;
+    padding-top: 4em;
+    padding-left: 20em;
+    padding-right: 60em;
+}
+.card-title {
+    color: #000000;
+    max-width: 100%;
+    font-size: 50px;
+}
+.card-paragraf{
+    font-size: 18px;
+    color: #000000;
+    max-width: 100%;
+}
+.card-button{
+    background-color: #000000;
+    font-size: 15px;
+    color: #FFFFFF;
+    max-width: 100%;
+    padding: 15px 50px 15px 50px;
+}

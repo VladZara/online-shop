@@ -1,9 +1,10 @@
 .row{
- display: flex;
+display: flex;
 }
-
 .page-footer{
     background-color: white;
+    position: relative;
+    top: 150px;
 }
 .container{
     display: flex;
