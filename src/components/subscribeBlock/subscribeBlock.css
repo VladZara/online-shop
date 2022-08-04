@@ -1,0 +1,31 @@
+.subscribe-container{
+    width: 100%;
+    height: 100%;
+    padding: 200px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.subscribe-card{
+    background-color: #E5E5E5;
+    width: 50%;
+    right: 200px;
+    height: 50%;
+    padding-left: 250px;
+    padding-right: 100px;
+    position: absolute;
+    top: 1300px;
+}
+.subscribe-img{
+    top: 1315px;
+    left: 90px;
+    width: 40%;
+    position: absolute;
+    z-index: 1;
+}
+.subscribe-button{
+    background-color: #000000;
+    font-size: 15px;
+    color: #FFFFFF;
+    max-width: 100%;
+    padding: 15px 50px 15px 50px;
+}
