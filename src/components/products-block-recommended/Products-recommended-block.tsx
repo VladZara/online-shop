@@ -1,14 +1,14 @@
 import "./Products-block.css"
-import ProductBlock from "./product-block-content/Product-block";
+import ProductBlock from "../products-block/product-block-content/Product-block";
 import React from "react";
 
 
 
 
-const ProductsBlock = () => {
+const ProductsRecommendedBlock = () => {
     return (
         <div className={"rail"}>
-            <h1>New</h1>
+            <h1>Recommended</h1>
             <div className={"train"}>
             <ProductBlock productImg="./img/imgGel.png" productPrice={"32.50$"} prductInfo={"slimming body gel"}  productName={"Gel "}/>
              <ProductBlock productImg="./img/img_1.png" productPrice={"32.50$"} prductInfo={"slimming body gel"}  productName={"Gel "}/>
@@ -22,4 +22,6 @@ const ProductsBlock = () => {
         </div>
     )
 }
-export default ProductsBlock
+
+// @ts-ignore
+export default ProductsRecommendedBlock
