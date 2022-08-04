@@ -7,6 +7,7 @@ import FirstBlock from "./components/first_block/FirstBlock";
 import DescriptionBlock from "./components/descriptionBlock/DescriptionBlock";
 import ProductsBlock from "./components/products-block/Products-block";
 import ProductsRecommendedBlock from "./components/products-block-recommended/Products-recommended-block";
+import SubscribeBlock from "./components/subscribeBlock/SubscribeBlock";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <ProductsBlock/>
         <SaleCard/>
         <ProductsRecommendedBlock/>
+        <SubscribeBlock/>
         <Footer/>
     </>
   );
