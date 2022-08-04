@@ -6,6 +6,7 @@ display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    /*box-shadow: 2px 2px  #5C5C66;*/
 }
 .cardPr img{
     width: 300px;

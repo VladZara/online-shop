@@ -20,7 +20,7 @@ function App() {
         <ProductsBlock/>
         <SaleCard/>
         <ProductsRecommendedBlock/>
-        <SubscribeBlock/>
+        {/*<SubscribeBlock/>*/}
         <Footer/>
     </>
   );
