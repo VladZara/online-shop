@@ -3,11 +3,22 @@ display: flex;
 }
 .page-footer{
     background-color: white;
+    position: relative;
+    top: 150px;
 }
 .container{
     display: flex;
     color: black;
     flex-direction: column;
+    width: 90%;
+}
+.position-container{
+    left: 150px;
+    position: relative;
+}
+.position-catalog{
+    position: relative;
+    left: 75px;
 }
 .social{
     display: flex;
@@ -81,9 +92,12 @@ display: flex;
     position: relative;
     width: 450px;
     height: 150px;
-    top: 50px;
+    left: 125px;
 }
-.levo{
+.social-position{
     position: relative;
-    right: 200px;
 }
+.font-end{
+    font-size: 10px;
+}
+
