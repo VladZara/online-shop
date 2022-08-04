@@ -7,12 +7,12 @@ const Footer = () => {
             <footer className="page-footer">
                 <div className="container">
                     <div className="row">
-                        <div className="col l6 s12">
+                        <div >
                             <img src="./social/logo.png" alt=""/>
                             <p className="text-lighten-4">8 495 259 25 00
                                 Sale@kkshop.ru</p>
                         </div>
-                        <div className="col l4 offset-l2 s12">
+                        <div className='position-catalog'>
                             <h5>Catalog</h5>
                             <ul>
                                 <li><a className="black-text text-lighten-3" href="#!">Сleansing</a></li>
@@ -31,7 +31,7 @@ const Footer = () => {
                                 <li><a className="black-text text-lighten-3" href="#!">Sets and accessories</a></li>
                             </ul>
                         </div>
-                        <div className="col l4 offset-l2 s12">
+                        <div className='position-container'>
                             <h5>Information</h5>
                             <ul>
                                 <li><a className="black-text text-lighten-3" href="#!">Club of cosmetologists</a></li>
@@ -52,10 +52,10 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        <div className="col l4 offset-l1 s12">
-                            <div className='levo'>
+                        <div>
+                            <div className='social-position'>
                             <h5>Social media</h5>
-                            <div className='social'>
+                            <ul className='social'>
                                 <div className='telegram'>
                                 <img src="./social/Vector.png" alt="telega"/>
                                 </div>
@@ -74,13 +74,13 @@ const Footer = () => {
                                 <div className='vibe'>
                                     <img src="./social/vibe.png" alt="telega"/>
                                 </div>
-                            </div>
+                            </ul>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className="container">
+                    <div className="container font-end">
                         <span>LLC</span>
                         <span>MSRN 1167746492704</span>
                         <span>KK Shop © Moscow 2021 All rules reserved.</span>
