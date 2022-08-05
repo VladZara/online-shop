@@ -22,7 +22,7 @@ function App() {
         <SaleCard/>
         <ProductsRecommendedBlock/>
         <SubscribeBlock/>
-        {/*<ProductPage />*/}
+        <ProductPage />
         <Footer/>
     </>
   );

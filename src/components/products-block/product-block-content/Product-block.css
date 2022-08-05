@@ -1,12 +1,10 @@
 .cardPr{
-    /*border-left: 3px solid red;*/
     width: 370px;
     height: 470px;
 display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    /*box-shadow: 2px 2px  #5C5C66;*/
 }
 .cardPr img{
     width: 300px;
@@ -20,7 +18,6 @@ display: flex;
     align-items: center;
 }
 .info h4,.info p,.info h5{
-    /*width: 100%;*/
 height: 20px;
 }
 .pricess h6{

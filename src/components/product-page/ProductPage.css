@@ -1,8 +1,5 @@
 .productPageInfo{
     position: relative;
-    /*top: 300px;*/
-    /*background-color: black;*/
-    /*border: 3px solid black;*/
     width: 1530px;
     height: 590px;
     display: flex;
@@ -11,8 +8,6 @@ margin-left: 120px;
 margin-right: 260px;
 }
 .yourLocation{
-    /*display: flex;*/
-    /*flex-direction: column;*/
     margin-left: 120px;
     height: 50px;
 }
@@ -24,7 +19,7 @@ font-family: Roboto;
 
 }
 .pinkText{
-    color: #de566a;
+    color: #e03c6e;
 }
 
 .imgProdPage{
@@ -55,7 +50,6 @@ font-family: Roboto;
     width: 220px;
 }
 .volumeProdPage h5{
-    /*height: 1px;*/
 }
 .squareProdPage{
     display: flex;
@@ -66,12 +60,22 @@ border: 3px solid black;
     width: 70px;
     height: 60px;
 }
-
+.withoutDiscount h5{
+    color: #bcbcbd;
+}
 .priceProdPage{
     display: flex;
     justify-content: space-between;
     height: 100px;
-    width: 250px;
+    width: 270px;
+}
+.line{
+    background-color: #bcbcbd;
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 159px;
 }
 
 .btnsProdPage{
@@ -101,7 +105,6 @@ border: 3px solid black;
     justify-content: space-between;
 }
 .guarantee{
-   /*border: 3px solid black;*/
     display: flex;
     justify-content: space-evenly;
     width: 240px;
@@ -111,7 +114,6 @@ height: 65px;
     height: 1px;
 }
 .guarantee img{
-    /*border: 3px solid black;*/
     width:50px;
     height:58px;
 }

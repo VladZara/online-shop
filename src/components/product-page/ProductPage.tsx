@@ -14,7 +14,7 @@ const ProductPage = () => {
                     </div>
 
                     <div className={"titlesProdPage"}>
-                        <p>Refreshing cooling face tonic</p>
+                        <h6>Refreshing cooling face tonic</h6>
                         <div>
                             <h3><span className={"pinkText"}>SKINDOM</span> LUXURY CELL</h3>
                             <h3>PEPRIDE DEEP CLEANSING OIL</h3>
@@ -31,11 +31,12 @@ const ProductPage = () => {
 
                             <div>
                                 <h5>30.01$</h5>
-                                <p>With 44% discount</p>
+                                <p className={"pinkText"}>With 44% discount</p>
                             </div>
+                            <div className={"line"}></div>
+                            <div className={"withoutDiscount"}>
 
-                            <div>
-                                <h5>30.00$</h5>
+                                <h5 >30.00$</h5>
                                 <p>Without discount</p>
                             </div>
 
