@@ -20,7 +20,7 @@ const ProductPage = () => {
                             <h3>PEPRIDE DEEP CLEANSING OIL</h3>
                         </div>
                         <div>
-                            <p>Article: 19000000618</p>
+                            <p className={"article"}>Article: 19000000618</p>
 
                             <div className={"volumeProdPage"}>
                                 <div className={"squareProdPage"}>1500</div>
