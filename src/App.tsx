@@ -8,6 +8,7 @@ import DescriptionBlock from "./components/descriptionBlock/DescriptionBlock";
 import ProductsBlock from "./components/products-block/Products-block";
 import ProductsRecommendedBlock from "./components/products-block-recommended/Products-recommended-block";
 import SubscribeBlock from "./components/subscribeBlock/SubscribeBlock";
+import ProductPage from "./components/product-page/ProductPage";
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
         <ProductsBlock/>
         <SaleCard/>
         <ProductsRecommendedBlock/>
-        {/*<SubscribeBlock/>*/}
+        <SubscribeBlock/>
+        {/*<ProductPage />*/}
         <Footer/>
     </>
   );
