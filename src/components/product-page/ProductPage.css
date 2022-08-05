@@ -1,6 +1,117 @@
 .productPageInfo{
-    top: 1000px;
-    background-color: black;
-    height: 300px;
+    position: relative;
+    /*top: 300px;*/
+    /*background-color: black;*/
+    /*border: 3px solid black;*/
+    width: 1530px;
+    height: 590px;
     display: flex;
+    justify-content: space-between;
+margin-left: 120px;
+margin-right: 260px;
+}
+.yourLocation{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    margin-left: 120px;
+    height: 50px;
+}
+
+.productPageInfo h3{
+    margin: 0rem 0 0.68rem 0;
+font-family: Roboto;
+    font-size: 48px;
+
+}
+.pinkText{
+    color: #de566a;
+}
+
+.imgProdPage{
+    border: 3px solid #000000;
+    background-color: #ffffff;
+    width: 740px;
+    height: 585px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgProdPage img{
+    width: 330px;
+    height: 515px;
+}
+
+.titlesProdPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 730px;
+    height: 585px;
+}
+
+.volumeProdPage{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+.volumeProdPage h5{
+    /*height: 1px;*/
+}
+.squareProdPage{
+    display: flex;
+border: 3px solid black;
+    align-items: center;
+    justify-content: center;
+    font-size: 24.6px;
+    width: 70px;
+    height: 60px;
+}
+
+.priceProdPage{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 250px;
+}
+
+.btnsProdPage{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 420px;
+    height: 60px;
+    margin-bottom: 0;
+}
+
+.btnsProdPage img{
+    width: 60px;
+    height: 60px;
+}
+
+.btnAddBasket{
+    width: 270px;
+    height: 60px;
+    color: #FFFFFF;
+    background-color: black;
+}
+.allGuarantee{
+    margin-left: 120px;
+    display: flex;
+    width: 740px;
+    justify-content: space-between;
+}
+.guarantee{
+   /*border: 3px solid black;*/
+    display: flex;
+    justify-content: space-evenly;
+    width: 240px;
+height: 65px;
+}
+.guarantee p{
+    height: 1px;
+}
+.guarantee img{
+    /*border: 3px solid black;*/
+    width:50px;
+    height:58px;
 }
