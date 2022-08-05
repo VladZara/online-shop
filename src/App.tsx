@@ -22,7 +22,6 @@ function App() {
         <SaleCard/>
         <ProductsRecommendedBlock/>
         <SubscribeBlock/>
-        <ProductPage />
         <Footer/>
     </>
   );
