@@ -3,20 +3,18 @@ p, h2, h3,  h4,h5,h6{
 }
 .train {
     display: flex;
-    width: 3140px;
+    width: 3120px;
     height: 470px;
     justify-content: space-around;
     flex-direction: row;
     font-family: 'Gilroy';
-    position: relative;
-    top: 25px;
+    top: 100px;
 }
 .rail{
-    height: 650px;
-    width: 1570px;
+    margin-left: 120px;
+    height: 610px;
+    width: 1550px;
     position: relative;
-    top: 25px;
-    margin-left: 100px;
-    margin-right: 100px ;
+    top: 80px;
     overflow: hidden;
 }

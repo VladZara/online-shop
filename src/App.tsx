@@ -10,6 +10,8 @@ import ProductsRecommendedBlock from "./components/products-block-recommended/Pr
 import SubscribeBlock from "./components/subscribeBlock/SubscribeBlock";
 import ProductPage from "./components/product-page/ProductPage";
 import DescriptionsProductPage from "./components/descriptionsProductPage/DescriptionsProductPage";
+import ProdPageInterestedBlock from "./components/prodPageInterestedBlock/ProdPageInterestedBlock";
+import ProdPageSimilarPBlock from "./components/prodPageSimilarPBlock/prodPageSimilarPBlock";
 
 
 function App() {
@@ -19,7 +21,7 @@ function App() {
         <Navbar/>
        <FirstBlock/>
         <DescriptionBlock/>
-        <ProductsBlock/>
+        <ProdPageSimilarPBlock/>
         <SaleCard/>
         <ProductsRecommendedBlock/>
         <SubscribeBlock/>
