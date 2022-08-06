@@ -4,13 +4,13 @@ display: flex;
 .page-footer{
     background-color: white;
     position: relative;
-    top: 150px;
+    top: 50px;
 }
 .container{
     display: flex;
     color: black;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
 }
 .position-container{
     left: 150px;

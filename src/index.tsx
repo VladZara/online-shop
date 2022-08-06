@@ -1,18 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import Navbar from "./components/navbar/Navbar";
-import ProductsBlock from "./components/products-block/Products-block";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./components/home-page/HomePage";
+import BlogPage from "./components/blog-page/BlogPage";
 
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
-root.render(
-  <React.StrictMode>
-    <App/>
-      {/*<Navbar/>*/}
-  </React.StrictMode>
-);
+export default function App() {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<HomePage />}/>
+                <Route path="/blog-page" element={<BlogPage />}/>
+            </Routes>
+        </BrowserRouter>
+    );
+}
 
-
+const root = ReactDOM.createRoot(document.getElementById('root')!);
+root.render(<App />);
