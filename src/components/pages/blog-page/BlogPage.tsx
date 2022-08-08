@@ -1,8 +1,8 @@
 import React from 'react';
 import "./blogPage.css"
-import Header from "../header/Header";
-import Navbar from "../navbar/Navbar";
-import Footer from "../footer/Footer";
+import Header from "../../header/Header";
+import Navbar from "../../navbar/Navbar";
+import Footer from "../../footer/Footer";
 
 const BlogPage = () => {
     const cards = [{
