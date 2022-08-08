@@ -1,6 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./ShippingAndPayment.css"
+import TermsOfServiceDelivery from "./termsOfServiceDelivery/TermsOfServiceDelivery";
+import TermsOfServiceRules from "./termsOfServiceRules/TermsOfServiceRules";
 const ShippingAndPayment = () => {
+    const [mutation,SetMutation] =useState(true)
+
+    const mutationHandler = () => {
+        SetMutation((mutation) => !mutation)
+    }
     return (
         <>
             <div className={"shippingAndPaymentt"}>
@@ -11,15 +18,16 @@ const ShippingAndPayment = () => {
                         <p>Choose the pick-up point and the date of receipt of <br/>the order
                             that is most convenient for you</p>
                     </div>
+                    <div className={"verticalLine"}></div>
                     <div className={"sAPInfoCard"}>
-                        <h5>Pickup points</h5>
-                        <p>Choose the pick-up point and the date of receipt of <br/>the order
-                            that is most convenient for you</p>
+                        <h5>Express delivery</h5>
+                        <p>Receive the goods the very next day <br/>
+                            valid for goods marked )</p>
                     </div>
+                    <div className={"verticalLine"}></div>
                     <div className={"sAPInfoCard"}>
-                        <h5>Pickup points</h5>
-                        <p>Choose the pick-up point and the date of receipt of <br/>the order
-                            that is most convenient for you</p>
+                        <h5>Professional and safe</h5>
+                        <p>We take the delivery process seriously and <br/>trust it only to professionals in their field.</p>
                     </div>
                 </div>
                 <div className={"sAPOptionsCardAF"}>
@@ -43,6 +51,15 @@ const ShippingAndPayment = () => {
                     </div>
                     <img src="./img/img_8.png" alt=""/>
                 </div>
+            </div>
+            <div className={"termsOfService"}>
+                <h4>Terms of Service</h4>
+                <div className={"termsOfServiceBtn"}>
+                    <button className={mutation ? "selected" : "notSelected"} onClick={mutationHandler}>Delivery</button>
+                    <button className={mutation ? "notSelected" : "selected"} onClick={mutationHandler}>Goods acceptance rules</button>
+                </div>
+                {mutation && <TermsOfServiceDelivery/>}
+                {mutation === false && <TermsOfServiceRules/>}
             </div>
         </>
     );

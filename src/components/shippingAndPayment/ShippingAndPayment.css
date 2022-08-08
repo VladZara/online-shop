@@ -9,7 +9,8 @@ h2,h3,h4,h5,h6{
 .sAPInfoCards{
     background-color: #f1f1f2;
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    align-items: center;
 }
 .sAPOptionsCardAF{
     margin-top: 100px;
@@ -40,6 +41,7 @@ background-color: #000001;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 10px;
 }
 .botomLine{
     border-bottom:1px solid #5C5C66;
@@ -62,4 +64,33 @@ display: flex;
     background-color: #f1f1f2;
     height: 120px;
     width: 550px;
+}
+.termsOfServiceBtn{
+    display: flex;
+    width: 560px;
+    justify-content: space-between;
+}
+.termsOfService{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.selected{
+    background-color: black;
+    color: #FFFFFF;
+    width: 270px;
+    height: 50px;
+}
+.notSelected{
+background-color: #f1f1f2;
+    color: #3d3d3e;
+    width: 270px;
+    height: 50px;
+}
+button:focus{
+    background-color: black !important;
+}
+.verticalLine{
+    width: 1px;
+    height: 80px;
+    background-color: #e1e1e2;
 }
