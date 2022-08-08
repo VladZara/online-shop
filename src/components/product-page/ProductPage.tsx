@@ -1,5 +1,9 @@
 import React from "react";
 import "./ProductPage.css"
+import DescriptionsProductPage from "./descriptionsProductPage/DescriptionsProductPage";
+
+import ProductsRecommendedBlock from "../products-block-recommended/Products-recommended-block";
+import ProductsBlock from "../products-block/Products-block";
 
 
 const ProductPage = () => {
@@ -14,13 +18,13 @@ const ProductPage = () => {
                     </div>
 
                     <div className={"titlesProdPage"}>
-                        <p>Refreshing cooling face tonic</p>
+                        <h6>Refreshing cooling face tonic</h6>
                         <div>
                             <h3><span className={"pinkText"}>SKINDOM</span> LUXURY CELL</h3>
                             <h3>PEPRIDE DEEP CLEANSING OIL</h3>
                         </div>
                         <div>
-                            <p>Article: 19000000618</p>
+                            <p className={"article"}>Article: 19000000618</p>
 
                             <div className={"volumeProdPage"}>
                                 <div className={"squareProdPage"}>1500</div>
@@ -31,11 +35,12 @@ const ProductPage = () => {
 
                             <div>
                                 <h5>30.01$</h5>
-                                <p>With 44% discount</p>
+                                <p className={"pinkText"}>With 44% discount</p>
                             </div>
+                            <div className={"line"}></div>
+                            <div className={"withoutDiscount"}>
 
-                            <div>
-                                <h5>30.00$</h5>
+                                <h5 >30.00$</h5>
                                 <p>Without discount</p>
                             </div>
 
@@ -85,8 +90,9 @@ const ProductPage = () => {
                     </div>
 
                 </div>
-
-
+<DescriptionsProductPage/>
+<ProductsBlock/>
+                <ProductsRecommendedBlock/>
             </div>
         </>)
 }
