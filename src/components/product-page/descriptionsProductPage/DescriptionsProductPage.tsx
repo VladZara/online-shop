@@ -1,6 +1,6 @@
 import React from "react";
 import "./DescriptionsProductPage.css"
-import "../product-page/ProductPage.css"
+import "../ProductPage.css"
 
 
 const DescriptionsProductPage = () => {
