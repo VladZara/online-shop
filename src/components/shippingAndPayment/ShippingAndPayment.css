@@ -1,0 +1,65 @@
+h2,h3,h4,h5,h6{
+    font-weight: 700;
+    font-family: Gilroy;
+}
+.shippingAndPaymentt{
+    margin-left: 120px;
+    margin-right: 60px;
+}
+.sAPInfoCards{
+    background-color: #f1f1f2;
+    display: flex;
+    justify-content: space-around
+}
+.sAPOptionsCardAF{
+    margin-top: 100px;
+display: flex;
+    justify-content: space-between;
+}
+.sAPOptionsCardAF div h6{
+    font-weight: 500;
+    height: 5px;
+}
+.sAPOptionsCardAF div p{
+color: #7f7f80;
+}
+.sAPOptionsCardAF img{
+    width: 920px;
+    height: 500px;
+}
+.sAPOptionsCardAF button{
+background-color: #000001;
+    color: #FFFFFF;
+    width: 550px;
+    height: 50px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sAPOptionsCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.botomLine{
+    border-bottom:1px solid #5C5C66;
+    height:70px;
+}
+.pickup h5{
+    font-weight: 900;
+    height: 20px;
+}
+.pickup h6{
+color: #d584a1;
+}
+.addProducts img{
+    width: 74px;
+    height: 74px;
+}
+.addProducts{
+display: flex;
+    align-items: center;
+    background-color: #f1f1f2;
+    height: 120px;
+    width: 550px;
+}
