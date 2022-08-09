@@ -1,0 +1,19 @@
+.sub-paragraph{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    position: relative;
+}
+.sub-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.sub-name:hover{
+    background-color: rgb(113, 252, 217);
+    border-radius: 10px;
+}

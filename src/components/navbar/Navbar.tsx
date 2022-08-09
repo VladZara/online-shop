@@ -1,11 +1,21 @@
 import "./Navbar.css"
+import Catalog from "../catalog/Catalog";
+import {useState} from "react";
 const Navbar = () => {
+    const [isCatalogOpen, setIsCatalogOpen] = useState(false)
+    const openMenuHandler = ()=>{
+        setIsCatalogOpen(true)
+    }
+    const closeMenu =() =>{
+        setIsCatalogOpen(false)
+    }
     return (
         <nav>
             <div className="nav-wrapper">
                 <ul className="left col l4 offset-l2 s12">
                     <li><img className="navbar-img" src="./img/img.png"/></li>
-                    <li><a className="hover-underline"  href="!#">Catalog</a></li>
+                    <li><a  href="!#"  onClick={openMenuHandler}>Catalog Open</a></li>
+                    <li><a  href="!#"  onClick={closeMenu}>Catalog Close</a></li>
                     <li><a className="hover-underline" href="!#">Club of cosmetologists</a></li>
                     <li><a className="hover-underline" href="!#">Certificates</a></li>
                     <li><a className="hover-underline" href="!#">Shipping and payment</a></li>
@@ -19,7 +29,7 @@ const Navbar = () => {
                     <li><img className="icon-img" src="./img/user-icon.png"/></li>
                 </ul>
             </div>
-
+            {isCatalogOpen && <Catalog/>}
         </nav>
     )
 }
