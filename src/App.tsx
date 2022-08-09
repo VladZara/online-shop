@@ -8,6 +8,9 @@ import DescriptionBlock from "./components/descriptionBlock/DescriptionBlock";
 import ProductsBlock from "./components/products-block/Products-block";
 import ProductsRecommendedBlock from "./components/products-block-recommended/Products-recommended-block";
 import SubscribeBlock from "./components/subscribeBlock/SubscribeBlock";
+import ProductPage from "./components/product-page/ProductPage";
+import DescriptionsProductPage from "./components/product-page/descriptionsProductPage/DescriptionsProductPage";
+import ProductBlock from "./components/products-block/product-block-content/Product-block";
 
 
 function App() {

@@ -1,0 +1,96 @@
+h2,h3,h4,h5,h6{
+    font-weight: 700;
+    font-family: Gilroy;
+}
+.shippingAndPaymentt{
+    margin-left: 120px;
+    margin-right: 60px;
+}
+.sAPInfoCards{
+    background-color: #f1f1f2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sAPOptionsCardAF{
+    margin-top: 100px;
+display: flex;
+    justify-content: space-between;
+}
+.sAPOptionsCardAF div h6{
+    font-weight: 500;
+    height: 5px;
+}
+.sAPOptionsCardAF div p{
+color: #7f7f80;
+}
+.sAPOptionsCardAF img{
+    width: 920px;
+    height: 500px;
+}
+.sAPOptionsCardAF button{
+background-color: #000001;
+    color: #FFFFFF;
+    width: 550px;
+    height: 50px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sAPOptionsCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.botomLine{
+    border-bottom:1px solid #5C5C66;
+    height:70px;
+}
+.pickup h5{
+    font-weight: 900;
+    height: 20px;
+}
+.pickup h6{
+color: #d584a1;
+}
+.addProducts img{
+    width: 74px;
+    height: 74px;
+}
+.addProducts{
+display: flex;
+    align-items: center;
+    background-color: #f1f1f2;
+    height: 120px;
+    width: 550px;
+}
+.termsOfServiceBtn{
+    display: flex;
+    width: 560px;
+    justify-content: space-between;
+}
+.termsOfService{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.selected{
+    background-color: black;
+    color: #FFFFFF;
+    width: 270px;
+    height: 50px;
+}
+.notSelected{
+background-color: #f1f1f2;
+    color: #3d3d3e;
+    width: 270px;
+    height: 50px;
+}
+button:focus{
+    background-color: black !important;
+}
+.verticalLine{
+    width: 1px;
+    height: 80px;
+    background-color: #e1e1e2;
+}

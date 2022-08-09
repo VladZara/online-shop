@@ -1,0 +1,122 @@
+.productPageInfo{
+    position: relative;
+    width: 1530px;
+    height: 590px;
+    display: flex;
+    justify-content: space-between;
+margin-left: 120px;
+margin-right: 260px;
+}
+.yourLocation{
+    margin-left: 120px;
+    height: 50px;
+}
+
+.productPageInfo h3{
+    margin: 0rem 0 0.68rem 0;
+font-family: Roboto;
+    font-size: 48px;
+
+}
+.pinkText{
+    color: #e03c6e;
+}
+
+.imgProdPage{
+    border: 3px solid #000000;
+    background-color: #ffffff;
+    width: 740px;
+    height: 585px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgProdPage img{
+    width: 330px;
+    height: 515px;
+}
+
+.titlesProdPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 750px;
+    height: 585px;
+}
+
+.volumeProdPage{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+.volumeProdPage h5{
+}
+.squareProdPage{
+    display: flex;
+border: 3px solid black;
+    align-items: center;
+    justify-content: center;
+    font-size: 24.6px;
+    width: 70px;
+    height: 60px;
+}
+.withoutDiscount h5{
+    color: #bcbcbd;
+}
+.priceProdPage{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 270px;
+}
+.line{
+    background-color: #bcbcbd;
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 159px;
+}
+
+.btnsProdPage{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 420px;
+    height: 60px;
+    margin-bottom: 0;
+}
+
+.btnsProdPage img{
+    width: 60px;
+    height: 60px;
+}
+
+.btnAddBasket{
+    width: 270px;
+    height: 60px;
+    color: #FFFFFF;
+    background-color: black;
+}
+.allGuarantee{
+    margin-left: 120px;
+    display: flex;
+    width: 740px;
+    justify-content: space-between;
+}
+.guarantee{
+    display: flex;
+    justify-content: space-evenly;
+    width: 240px;
+height: 65px;
+}
+.guarantee p{
+    height: 1px;
+}
+.guarantee img{
+    width:50px;
+    height:58px;
+}
+.article{
+    color: #aeaeaf;
+}

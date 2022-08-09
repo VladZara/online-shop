@@ -1,0 +1,37 @@
+.allDescriptionProd{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.choiceBtn{
+    display: flex;
+    width: 360px;
+    justify-content: space-between;
+}
+
+.witchLine{
+    margin-top: 10px;
+    margin-bottom: 35px;
+    width: 1600px;
+    height: 1px;
+    background-color: #C4C4C4;
+}
+.selectedLine{
+    background: #000000;
+    width: 75px;
+    height: 3px;
+}
+.infoDsProdPage{
+    width: 1007px;
+}
+.rowOfText{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+.colorGray{
+    color: #c1c1c2;
+}
+h6 ,h3{
+    font-weight: 700;
+}

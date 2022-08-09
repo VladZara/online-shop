@@ -1,0 +1,7 @@
+.termsOfServiceRules{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 930px;
+    margin-left: 30px;
+}

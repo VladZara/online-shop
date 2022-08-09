@@ -1,4 +1,4 @@
-import "./Products-block.css"
+import "./Products-recommended-block.css"
 import ProductBlock from "../products-block/product-block-content/Product-block";
 import React from "react";
 
