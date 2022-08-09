@@ -14,8 +14,8 @@ const Navbar = () => {
             <div className="nav-wrapper">
                 <ul className="left col l4 offset-l2 s12">
                     <li><img className="navbar-img" src="./img/img.png"/></li>
-                    <li><a  href="!#"  onClick={openMenuHandler} onChange={closeMenu}>Catalog</a></li>
-                    <li><a  href="!#"  onClick={closeMenu}>Close</a></li>
+                    <li><a  href="!#"  onClick={openMenuHandler}>Catalog Open</a></li>
+                    <li><a  href="!#"  onClick={closeMenu}>Catalog Close</a></li>
                     <li><a className="hover-underline" href="!#">Club of cosmetologists</a></li>
                     <li><a className="hover-underline" href="!#">Certificates</a></li>
                     <li><a className="hover-underline" href="!#">Shipping and payment</a></li>
@@ -30,7 +30,6 @@ const Navbar = () => {
                 </ul>
             </div>
             {isCatalogOpen && <Catalog/>}
-
         </nav>
     )
 }
