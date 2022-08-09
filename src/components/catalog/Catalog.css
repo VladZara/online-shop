@@ -1,12 +1,24 @@
 .container-menu{
-    background-color: violet;
+    background-color: #e0e0e0;
     display: flex;
-    width: 250px;
-    height: 250px;
+    width: 750px;
+    height: 700px;
     z-index: 1000;
     position: absolute;
+    left: 10px;
+    padding: 25px;
 }
 .turn-menu{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+.dot-menu{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+
