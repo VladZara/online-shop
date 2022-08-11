@@ -11,8 +11,9 @@ import SubscribeBlock from "./components/subscribeBlock/SubscribeBlock";
 import ProductPage from "./components/product-page/ProductPage";
 import DescriptionsProductPage from "./components/product-page/descriptionsProductPage/DescriptionsProductPage";
 import ProductBlock from "./components/products-block/product-block-content/Product-block";
-import ProfilePage from "./components/profilePage/ProfilePage";
 
+import ProfilePage from "./components/profilePage/ProfilePage";
+import Basket from "./components/basket/Basket";
 
 function App() {
   return (
@@ -29,5 +30,4 @@ function App() {
     </>
   );
 }
-
 export default App;
