@@ -197,7 +197,6 @@ const Catalog = () => {
                 </div>
             </>
         );
-    }
-;
+    };
 
 export default Catalog;
