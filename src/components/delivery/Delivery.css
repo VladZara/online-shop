@@ -1,0 +1,118 @@
+.delivery{
+    width: auto;
+    height: 700px;
+    margin: 50px 350px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-between;
+    margin: 20px 50px ;
+}
+.delivery-mark{
+    width: 200px;
+    height: 210px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btn-check{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.markup-delivery{
+    display: flex;
+}
+.numbers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 15px;
+    height: 150px;
+}
+.order{
+    width: 350px;
+    height: 450px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+.change{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+.amount{
+    width: 200px;
+    height: 150px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.style-input{
+    border: 1px dashed black;
+}
+.choose{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.steps{
+     width: 320px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.hashR{
+    margin-top: 5px;
+    width: 350px;
+    height: 2px;
+    background-color: #5C5C66;
+}
+.soam img{
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+}
+.total{
+    width: 350px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left:280px ;
+}
+.footer{
+    width: auto;
+    height: 100px;
+    background-color: black;
+    margin-top: 45px;
+    display: flex;
+}
+.support{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 25px;
+}
+.e-mail{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.cashback{
+    color: #FFFFFF;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+
