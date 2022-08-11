@@ -12,11 +12,9 @@ const ProductPage = () => {
             <div>
                 <h6 className={"yourLocation"}>Home / Hair care / Balm conditioners</h6>
                 <div className={"productPageInfo"}>
-
                     <div className={"imgProdPage"}>
                         <img src="./img/img_2.png" alt=""/>
                     </div>
-
                     <div className={"titlesProdPage"}>
                         <h6>Refreshing cooling face tonic</h6>
                         <div>

@@ -28,6 +28,11 @@ const ProfilePagePersonalInfo = () => {
             <div className={"inputNames"}>
                 <input placeholder={"Date of Birth"} type="text"/>
                 <input placeholder={"Your mail"} type="text"/>
+                <input value={"              +1 843 224 7444"} placeholder={"Your malrwssdf"} type="text"/>
+                <div className={"country"}>
+                    <img src="./img/united-states.png" alt=""/>
+                    <img src="./img/img_14.png" alt=""/>
+                </div>
                 <input placeholder={"City"} type="text"/>
                 <div className={"consent"}>
                     <input type="checkbox"/>

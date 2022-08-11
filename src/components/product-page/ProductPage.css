@@ -10,18 +10,17 @@ margin-right: 260px;
 .yourLocation{
     margin-left: 120px;
     height: 50px;
+    margin-top: 80px;
+    margin-bottom: 10px;
 }
-
 .productPageInfo h3{
     margin: 0rem 0 0.68rem 0;
 font-family: Roboto;
     font-size: 48px;
-
 }
 .pinkText{
     color: #e03c6e;
 }
-
 .imgProdPage{
     border: 3px solid #000000;
     background-color: #ffffff;
@@ -35,7 +34,6 @@ font-family: Roboto;
     width: 330px;
     height: 515px;
 }
-
 .titlesProdPage{
     display: flex;
     flex-direction: column;
@@ -43,7 +41,6 @@ font-family: Roboto;
     width: 750px;
     height: 585px;
 }
-
 .volumeProdPage{
     display: flex;
     justify-content: space-between;

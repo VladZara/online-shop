@@ -40,4 +40,7 @@ height: 20px;
 }
 .pricess{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85px;
 }

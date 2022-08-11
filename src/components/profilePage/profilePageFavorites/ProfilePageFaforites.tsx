@@ -10,7 +10,6 @@ const ProfilePageFaforites = () => {
             <ProductFavoritBlock/>
             <ProductFavoritBlock/>
             <ProductFavoritBlock/>
-            {/*<ProductFavoritBlock reducePrice={"32.50$"} price={"33.00"} imgUrl={"./img/img_11.png"}/>*/}
         </div>
     )
 }

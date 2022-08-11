@@ -15,7 +15,8 @@ const ProductFavoritBlock = (props:any) => {
                         <img src="/img/img_13.png" alt=""/>
                     </div>
                     <div className={"price"}>
-                        <h5>30.00$</h5>
+                        <div></div>
+                        <h5  className={"discount"}>30.00$</h5>
                         <h5>30.00$</h5>
                     </div>
                 </div>

@@ -54,3 +54,11 @@ background-color: #000001;
     width: 380px;
     height: 55px;
 }
+.country{
+    margin-top: -45px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55px;
+}
