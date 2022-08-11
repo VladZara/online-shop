@@ -12,6 +12,7 @@ import ProductPage from "./components/product-page/ProductPage";
 import DescriptionsProductPage from "./components/product-page/descriptionsProductPage/DescriptionsProductPage";
 import ProductBlock from "./components/products-block/product-block-content/Product-block";
 import Basket from "./components/basket/Basket";
+import Delivery from "./components/delivery/Delivery";
 
 
 function App() {
