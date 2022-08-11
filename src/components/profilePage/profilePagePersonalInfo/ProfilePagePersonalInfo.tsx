@@ -5,7 +5,7 @@ import React from "react";
 const ProfilePagePersonalInfo = () => {
     return (
         <div className={"ProfilePagePersonalInfo"}>
-            <h4>Заполните профиль и получите 10% бонусную карту</h4>
+            <h4>Fill out your profile and get a 10% bonus card</h4>
             <div className={"inputNames"}>
                 <input placeholder={"Surname"} type="text"/>
                 <input placeholder={"Name"} type="text"/>
