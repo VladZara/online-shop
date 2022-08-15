@@ -1,18 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import Navbar from "./components/navbar/Navbar";
-import ProductsBlock from "./components/products-block/Products-block";
+import ReactDOM from "react-dom/client";
+import {BrowserRouter} from "react-router-dom";
+import App from "./App";
 
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
+const root = ReactDOM.createRoot(document.getElementById('root')!);
+
 root.render(
-  <React.StrictMode>
-    <App/>
-      {/*<Navbar/>*/}
-  </React.StrictMode>
+    <BrowserRouter>
+        <App/>
+    </BrowserRouter>
 );
-
 
