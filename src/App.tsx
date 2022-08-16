@@ -13,6 +13,8 @@ import DescriptionsProductPage from "./components/product-page/descriptionsProdu
 import ProductBlock from "./components/products-block/product-block-content/Product-block";
 import ProfilePage from "./components/profilePage/ProfilePage";
 import Ordering from "./components/ordering/Ordering";
+import Basket from "./components/basket/Basket";
+import Delivery from "./components/delivery/Delivery";
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
       {/*  <ProductsRecommendedBlock/>*/}
       {/*  <SubscribeBlock/>*/}
       {/*  <Footer/>*/}
+      {/*  <Delivery/>*/}
+      {/*  <ProfilePage/>*/}
         <Ordering/>
     </>
   );
