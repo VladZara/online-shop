@@ -13,20 +13,22 @@ import DescriptionsProductPage from "./components/product-page/descriptionsProdu
 import ProductBlock from "./components/products-block/product-block-content/Product-block";
 import Basket from "./components/basket/Basket";
 import Delivery from "./components/delivery/Delivery";
+import Contacts from "./components/contacts/Contacts";
 
 
 function App() {
   return (
     <>
-      <Header/>
-        <Navbar/>
-       <FirstBlock/>
-        <DescriptionBlock/>
-        <ProductsBlock/>
-        <SaleCard/>
-        <ProductsRecommendedBlock/>
-        <SubscribeBlock/>
-        <Footer/>
+      {/*<Header/>*/}
+      {/*  <Navbar/>*/}
+      {/* <FirstBlock/>*/}
+      {/*  <DescriptionBlock/>*/}
+      {/*  <ProductsBlock/>*/}
+      {/*  <SaleCard/>*/}
+      {/*  <ProductsRecommendedBlock/>*/}
+      {/*  <SubscribeBlock/>*/}
+      {/*  <Footer/>*/}
+        <Contacts/>
     </>
   );
 }
