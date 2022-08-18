@@ -1,0 +1,38 @@
+.discount{
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    margin: 150px;
+    background-color: #e0e0e0;
+}
+.hh-discount{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.btn-discount{
+    width: 450px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
+.link a{
+    color: black;
+    padding-top: 20px;
+}
+
+
