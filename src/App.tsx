@@ -21,19 +21,15 @@ import Contacts from "./components/contacts/Contacts";
 function App() {
   return (
     <>
-      {/*<Header/>*/}
-      {/*  <Navbar/>*/}
-      {/* <FirstBlock/>*/}
-      {/*  <DescriptionBlock/>*/}
-      {/*  <ProductsBlock/>*/}
-      {/*  <SaleCard/>*/}
-      {/*  <ProductsRecommendedBlock/>*/}
-      {/*  <SubscribeBlock/>*/}
-      {/*  <Footer/>*/}
-      {/*  <Delivery/>*/}
-      {/*  <ProfilePage/>*/}
-        <Ordering/>
-        <Contacts/>
+      <Header/>
+        <Navbar/>
+       <FirstBlock/>
+        <DescriptionBlock/>
+        <ProductsBlock/>
+        <SaleCard/>
+        <ProductsRecommendedBlock/>
+        <SubscribeBlock/>
+        <Footer/>
     </>
   );
 }

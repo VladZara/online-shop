@@ -1,0 +1,35 @@
+.subscribe-container{
+    height: 555px;
+    width: 1677px;
+    margin-left: 121px;
+    margin-top: 183px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.subscribe-card{
+    background-color: #f1f1f2;
+    width: 1245px;
+    height: 555px;
+    padding-left: 490px;
+    padding-right: 100px;
+}
+.subscribe-card input{
+    width: 530px !important;
+    height: 65px!important;
+}
+.subscribe-img{
+    height: 453px;
+    width: 811px;
+    position: absolute;
+    right: 860px;
+    z-index: 1;
+}
+.subscribe-button{
+    background-color: #000001;
+    font-size: 15px;
+    color: #fdfdfe;
+    width: 530px;
+    height: 65px;
+    margin-top:25px ;
+}
