@@ -5,7 +5,7 @@ const DescriptionBlock = () => {
             <div className="card-image">
             <img className="descrip-image" src="./img/DescripBlock.png" alt=""/>
                 <div className="card-text">
-                    <h2 className="descrip-title">Leading expert on the Russian market
+                    <h2 className="descrip-title">Leading expert on the Russian market <br/>
                         of professional cosmetics from Korea - KKshop™</h2>
                     <p>We make the world of professional Korean cosmetics available
                         to every cosmetologist in Russia, providing an opportunity to work
