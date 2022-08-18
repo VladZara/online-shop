@@ -2,8 +2,8 @@ import React from "react";
 import "./ProductPage.css"
 import DescriptionsProductPage from "./descriptionsProductPage/DescriptionsProductPage";
 
-import ProductsRecommendedBlock from "../products-block-recommended/Products-recommended-block";
-import ProductsBlock from "../products-block/Products-block";
+import ProductsRecommendedBlock from "../homepage/products-block-recommended/Products-recommended-block";
+import ProductsBlock from "../homepage/products-block/Products-block";
 
 
 const ProductPage = () => {
