@@ -1,40 +1,27 @@
 import React from 'react';
-import Header from "./components/header/Header";
-import Navbar from "./components/navbar/Navbar";
-import Footer from "./components/footer/Footer";
-import SaleCard from "./components/promotional_blocks/SaleCard";
-import FirstBlock from "./components/first_block/FirstBlock";
-import DescriptionBlock from "./components/descriptionBlock/DescriptionBlock";
-import ProductsBlock from "./components/products-block/Products-block";
-import ProductsRecommendedBlock from "./components/products-block-recommended/Products-recommended-block";
-import SubscribeBlock from "./components/subscribeBlock/SubscribeBlock";
-import ProductPage from "./components/product-page/ProductPage";
-import DescriptionsProductPage from "./components/product-page/descriptionsProductPage/DescriptionsProductPage";
-import ProductBlock from "./components/products-block/product-block-content/Product-block";
-import ProfilePage from "./components/profilePage/ProfilePage";
-import Ordering from "./components/ordering/Ordering";
-import Basket from "./components/basket/Basket";
-import Delivery from "./components/delivery/Delivery";
-import Contacts from "./components/contacts/Contacts";
-
+import {Routes, Route} from "react-router-dom";
+import HomePage from "./components/pages/homepage/HomePage";
+import Basket from "./components/pages/basket/Basket";
+import Contacts from "./components/pages/contacts/Contacts";
+import Delivery from "./components/pages/delivery/Delivery";
+import Ordering from "./components/pages/ordering/Ordering";
+import ProductPage from "./components/pages/product-page/ProductPage";
+import ProfilePage from "./components/pages/profilePage/ProfilePage";
+import ShippingAndPayment from "./components/pages/shippingAndPayment/ShippingAndPayment";
 
 function App() {
   return (
-    <>
-      {/*<Header/>*/}
-      {/*  <Navbar/>*/}
-      {/* <FirstBlock/>*/}
-      {/*  <DescriptionBlock/>*/}
-      {/*  <ProductsBlock/>*/}
-      {/*  <SaleCard/>*/}
-      {/*  <ProductsRecommendedBlock/>*/}
-      {/*  <SubscribeBlock/>*/}
-      {/*  <Footer/>*/}
-      {/*  <Delivery/>*/}
-      {/*  <ProfilePage/>*/}
-        <Ordering/>
-        <Contacts/>
-    </>
+    <Routes>
+        <Route path="/" element={<HomePage/>}/>
+        <Route path="/basket" element={<Basket/>}/>
+        <Route path="/contacts" element={<Contacts/>}/>
+        <Route path="/delivery" element={<Delivery/>}/>
+        <Route path="/ordering" element={<Ordering/>}/>
+        <Route path="/product-page" element={<ProductPage/>}/>
+        <Route path="/profilePage" element={<ProfilePage/>}/>
+        <Route path="/shippingAndPayment" element={<ShippingAndPayment/>}/>
+    </Routes>
+
   );
 }
 
