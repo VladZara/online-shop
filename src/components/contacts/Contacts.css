@@ -1,0 +1,27 @@
+.cards-shop{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    overflow-y: scroll;
+    width: 450px;
+    margin-left: 50px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.card-of{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 175px;
+    font-size: 18px;
+}
+.contacts{
+    display: flex;
+    margin-bottom: -50px;
+}
+.shop-on-map{
+    width: 750px;
+    height: 650px;
+}

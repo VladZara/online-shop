@@ -15,6 +15,7 @@ import ProfilePage from "./components/profilePage/ProfilePage";
 import Ordering from "./components/ordering/Ordering";
 import Basket from "./components/basket/Basket";
 import Delivery from "./components/delivery/Delivery";
+import Contacts from "./components/contacts/Contacts";
 
 
 function App() {
