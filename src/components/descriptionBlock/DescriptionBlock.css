@@ -1,0 +1,45 @@
+.container-descrip{
+    height: 480px;
+    width: 100%;
+}
+.descrip-image{
+    margin-bottom: 68px;
+    margin-left: 120px;
+    height: 357px;
+    width: 784px;
+
+}
+.card-image{
+margin-top: 60px;
+display: flex;
+}
+.card-text{
+font-size: 20px;
+margin-left: 70px;
+margin-right: 121px;
+}
+.descrip-title{
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+display: flex;
+align-items: center;
+}
+.descrip-card{
+    margin-left: 121px;
+    display: flex;
+    width: 1680px;
+    justify-content: space-between;
+}
+.descrip-cards{
+    display: flex;
+    border: 2px solid #cacacb;
+    width: 390px;
+    height: 80px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.descrip-cards h6{
+margin-left: 20px;
+}

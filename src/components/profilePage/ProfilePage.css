@@ -1,0 +1,54 @@
+h1{
+    font-weight: 800;
+    font-family: Roboto;
+    font-size: 120px;
+margin: 0;
+}
+.profilePage{
+    margin-left: 120px;
+    margin-top: 120px;
+}
+.topProfilePage{
+display: flex;
+justify-content: space-between;
+    align-items: center;
+/*width: 1300px;*/
+    margin-right: 80px;
+}
+.topProfilePage img{
+    width: 100px;
+    height: 100px;
+}
+.topProfilePage div{
+    display: flex;
+width: 250px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.isBonus {
+    margin-top: -20px;
+    margin-bottom: 30px;
+    color: #cfcfd0;
+}
+.isBonus div{
+    margin-top: -15px;
+background-color: #f4f4f5;
+    height: 2px;
+    margin-right: 80px;
+}
+.ProfList{
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-right: 300px;
+}
+.ProfList h5{
+font-weight: 500;
+}
+.ProfListAbout{
+    display: flex;
+}
+.selected{
+    margin-left: 20px;
+    font-weight: 700 !important;
+}

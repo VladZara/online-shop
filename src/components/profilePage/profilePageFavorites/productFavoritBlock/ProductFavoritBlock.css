@@ -1,0 +1,38 @@
+.productFavoritBlock{
+    display: flex;
+    width: 760px;
+    height: 200px;
+    border-bottom: 2px solid #f1f1f2;
+    margin-bottom: 30px;
+}
+.productFavoritBlock img{
+    width: 155px;
+    height: 155px;
+}
+.productFavoritBlock div img{
+    width: 30px;
+    height: 30px;
+}
+.productFavoritBlockWI{
+    height: 165px;
+}
+.productFavoritBlockWI h5{
+font-weight: 700;
+}
+.priceAndImg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+    margin-right: 20px;
+}
+.imgsDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+}

@@ -1,0 +1,56 @@
+.inputNames{
+    width: 390px;
+    margin-top: 30px;
+}
+.ProfilePagePersonalInfo{
+    display: flex;
+    height: 750px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inputGenders{
+    margin-top: 20px;
+    margin-bottom: 40px;
+display: flex;
+
+}
+.inputGenders div{
+    display: flex;
+    width: 145px;
+    align-items: center;
+}
+.inputGenders div input{
+    position: relative !important;
+    opacity: 1 !important;
+    pointer-events: all !important;
+     width: 22px;
+     height: 22px;
+     background-color: black;
+ }
+.inputGenders div h6{
+margin-top: 0;
+margin-bottom: 0;
+    margin-left: 10px;
+}
+.consent{
+display: flex;
+    align-items: center
+}
+.consent input{
+    position: relative !important;
+    opacity: 1 !important;
+    pointer-events: all !important;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+.pinkColor{
+    color: #d584a1;
+}
+.inputNames button{
+    margin-top: 20px;
+background-color: #000001;
+    color: #fdfdfe;
+    width: 380px;
+    height: 55px;
+}
