@@ -1,10 +1,9 @@
-import "./descriptionBlock.css"
+import "./DescriptionBlock.css"
 const DescriptionBlock = () => {
     return (
         <div className="container-descrip">
             <div className="card-image">
             <img className="descrip-image" src="./img/DescripBlock.png" alt=""/>
-            </div>
                 <div className="card-text">
                     <h2 className="descrip-title">Leading expert on the Russian market
                         of professional cosmetics from Korea - KKshop™</h2>
@@ -14,11 +13,13 @@ const DescriptionBlock = () => {
                         the field of health and skin care</p>
                     <a href="!#">More Info &rArr;</a>
                 </div>
+            </div>
+
             <div className="descrip-card">
-                <span className="descrip-cards">Perfect composition and efficiency</span>
-                <span className="descrip-cards">Naturalness and environmental friendliness</span>
-                <span className="descrip-cards">Cash and non-cash payment</span>
-                <span className="descrip-cards">Delivery all around Russia</span>
+                <div className="descrip-cards"><h6>Perfect composition <br/>and efficiency</h6></div>
+                <div className="descrip-cards"><h6>Naturalness and <br/> environmental friendliness</h6></div>
+                <div className="descrip-cards"><h6>Cash and <br/>non-cash payment</h6></div>
+                <div className="descrip-cards"><h6>Delivery <br/> all around Russia</h6></div>
             </div>
         </div>
     )

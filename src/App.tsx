@@ -20,18 +20,15 @@ import Delivery from "./components/delivery/Delivery";
 function App() {
   return (
     <>
-      {/*<Header/>*/}
-      {/*  <Navbar/>*/}
-      {/* <FirstBlock/>*/}
-      {/*  <DescriptionBlock/>*/}
-      {/*  <ProductsBlock/>*/}
-      {/*  <SaleCard/>*/}
-      {/*  <ProductsRecommendedBlock/>*/}
-      {/*  <SubscribeBlock/>*/}
-      {/*  <Footer/>*/}
-      {/*  <Delivery/>*/}
-      {/*  <ProfilePage/>*/}
-        <Ordering/>
+      <Header/>
+        <Navbar/>
+       <FirstBlock/>
+        <DescriptionBlock/>
+        <ProductsBlock/>
+        <SaleCard/>
+        <ProductsRecommendedBlock/>
+        <SubscribeBlock/>
+        <Footer/>
     </>
   );
 }

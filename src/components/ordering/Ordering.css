@@ -1,6 +1,5 @@
 .ordering{
     width: auto;
-    height: 700px;
     margin: 50px 350px;
 }
 .header{
@@ -22,8 +21,8 @@ margin-left: -50px;
     font-weight: 700;
 }
 .titles img{
-    width: 15px;
-    height: 9px;
+    width: 20px;
+    height: 10px;
 }
 .markup-delivery{
     display: flex;
@@ -111,48 +110,48 @@ display: flex;
 .PhoneInputCountrySelect{
     display: flex;
 }
-
-select{
-    display: initial;
-    border-bottom: 1px solid #000001 !important;
-    border: none;
-    width: 155px;
-}
-.order{
-    width: 350px;
-    height: 450px;
-    margin-left: 150px;
+.orderInput{
+    border: 1px dashed #dadadb !important;
     display: flex;
-    flex-direction: column;
-    background-color: lightgray;
-}
-.change{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 5px;
-}
-.amount{
-    width: 200px;
-    height: 150px;
-    margin-left: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.style-input{
-    border: 1px dashed black;
 }
 .choose{
     display: flex;
-    margin-left: 15px;
-    margin-top: 5px;
+    margin-left: 30px;
+    margin-top: 15px;
 }
 .accentuated{
     font-weight: 700;
     color: #000001 !important;
 }
-.personalInfo{
-    margin-left: 10px;
+.aLittleAccentuated{
+    font-weight: 500;
+    color: #000001 !important;
+}
+.steps{
+    width: 370px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #818182;
+}
+.hashR{
+    margin-top: 5px;
+    margin-left: 28px;
+    width: 370px;
+    height: 1px;
+    background-color: #c2c2c3;
+}
+.total{
+    width: 90px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left:320px;
+    margin-top:20px;
+    align-items: flex-end;
+}
+.total h5{
+line-height: 2px;
 }
 .subsectionPhone div{
     flex-direction: row !important;
@@ -167,7 +166,7 @@ select{
     flex-direction: row !important;
 }
 .marginTitles{
-    margin-left: 35px;
+    margin-left: 50px;
 }
 .paymentCard{
     margin-left: 10px;
@@ -184,9 +183,12 @@ display: flex;
     display: flex;
     width: 125px;
     height: 60px;
-    border: 1px solid black;
+    border: 1px solid #c8c8c9;
     align-items: center;
     justify-content: center;
+}
+.paidSelected{
+    border: 2px solid #000001 !important;
 }
 .paymentBlocks div img{
     width: 32px;
@@ -199,4 +201,102 @@ display: flex;
 .paymentCard h6 {
 color: #5C5C66;
 }
+.checkoutBtn{
+    margin-top: 40px;
+    width: 375px;
+    height: 55px;
+    background-color: #f1f1f2;
+    font-weight: 700;
+    border: 0;
+}
 
+select{
+    display: initial;
+    border-bottom: 1px solid #000001 !important;
+    border: none;
+    width: 155px;
+}
+.order{
+    width: 440px;
+    height: 515px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f9;
+}
+.order img{
+    width: 100px;
+    height: 90px;
+    margin-left: 32px;
+    margin-top: 23px;
+    margin-bottom: 30px;
+}
+.change{
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 35px;
+}
+.change h5{
+font-weight: 500;
+}
+.change > span{
+font-size: 15px !important;
+    font-weight: 500;
+    color: #89898a;
+}
+.change span{
+    font-size: 18px;
+    font-weight: 500;
+    color: #89898a;
+}
+.amount{
+    width: 200px;
+    height: 150px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.amount div{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+.footerContacts{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.support{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.e-mail{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.cashback{
+    color: #ababac;
+    margin-left: 30px;
+    margin-top: 45px;
+}
+.orderLine{
+    width: 380px;
+    height: 1px;
+    color: #c4c4c4;
+}
