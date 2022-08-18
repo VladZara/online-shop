@@ -14,21 +14,21 @@ import ProductBlock from "./components/products-block/product-block-content/Prod
 import Basket from "./components/basket/Basket";
 import Delivery from "./components/delivery/Delivery";
 import Contacts from "./components/contacts/Contacts";
-import Discount from "./components/discount/Discount";
 
 
 function App() {
   return (
     <>
-       <Header/>
-        <Navbar/>
-        <FirstBlock/>
-        <DescriptionBlock/>
-        <ProductsBlock/>
-        <SaleCard/>
-        <ProductsRecommendedBlock/>
-        <SubscribeBlock/>
-        <Footer/>
+      {/*<Header/>*/}
+      {/*  <Navbar/>*/}
+      {/* <FirstBlock/>*/}
+      {/*  <DescriptionBlock/>*/}
+      {/*  <ProductsBlock/>*/}
+      {/*  <SaleCard/>*/}
+      {/*  <ProductsRecommendedBlock/>*/}
+      {/*  <SubscribeBlock/>*/}
+      {/*  <Footer/>*/}
+        <Contacts/>
     </>
   );
 }
