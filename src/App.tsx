@@ -12,10 +12,7 @@ import ProductPage from "./components/product-page/ProductPage";
 import DescriptionsProductPage from "./components/product-page/descriptionsProductPage/DescriptionsProductPage";
 import ProductBlock from "./components/products-block/product-block-content/Product-block";
 import ProfilePage from "./components/profilePage/ProfilePage";
-import Basket from "./components/basket/Basket";
-import Ordering from "./components/ordering/Ordering";
-import Delivery from "./components/delivery/Delivery";
-import Contacts from "./components/contacts/Contacts";
+
 
 function App() {
   return (
