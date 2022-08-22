@@ -1,8 +1,11 @@
 import "./ProfilePagePersonalInfo.css"
-import React from "react";
+import React, {useState} from "react";
+import 'react-phone-number-input/style.css'
+import PhoneInput from 'react-phone-number-input'
 
 
 const ProfilePagePersonalInfo = () => {
+    const [value, setValue] = useState<any>()
     return (
         <div className={"ProfilePagePersonalInfo"}>
             <h4>Fill out your profile and get a 10% bonus card</h4>
@@ -28,6 +31,11 @@ const ProfilePagePersonalInfo = () => {
             <div className={"inputNames"}>
                 <input placeholder={"Date of Birth"} type="text"/>
                 <input placeholder={"Your mail"} type="text"/>
+                <PhoneInput placeholder={"Your phone number"}
+                            defaultCountry="US"
+                            value={"+1-523-184-9316"}
+                            onChange={setValue}
+                />
                 <input placeholder={"City"} type="text"/>
                 <div className={"consent"}>
                     <input type="checkbox"/>
