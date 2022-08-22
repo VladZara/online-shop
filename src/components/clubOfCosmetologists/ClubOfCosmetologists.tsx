@@ -6,7 +6,7 @@ const ClubOfCosmetologists = () => {
         return (
             <div className={"clubOfCosmetologists"}>
                 <div>
-                    <img src="./img/img_14.png" alt=""/>
+                    <img src="./img/comsmitologi.png" alt=""/>
                     <div className={"skindom"}>
                         <h6>Refreshing cooling face tonic</h6>
                         <h1>SKINDOM</h1>
