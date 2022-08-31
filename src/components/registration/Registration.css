@@ -1,0 +1,38 @@
+.registrationBlock{
+position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 860px;
+    /*border: 2px solid black;*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.registrationBlock > img{
+    width: 19px;
+    height: 19px;
+    margin-top: 38px;
+    margin-right: 54px;
+}
+.registrationBlock > div{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-between;*/
+    width: 510px;
+    height: 345px;
+margin-left: 175px;
+    margin-right: 175px;
+    margin-top: 250px;
+    /*border: 2px solid black;*/
+}
+.registrationBlock h2{
+font-weight: 700;
+}
+.registrationBlock > div button{
+    width: 510px;
+    height: 55px;
+    background-color: #000001;
+    color: #ffffff;
+    margin-top: 15px;
+}
