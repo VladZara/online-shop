@@ -17,8 +17,11 @@ display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.info h4,.info p,.info h5{
+.info h4,.info h5{
 height: 20px;
+}
+.info p{
+    height: 60px;
 }
 .pricess h6{
     font-size: 13px;

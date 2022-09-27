@@ -3,6 +3,7 @@ import React from "react";
 import ReactDom from "react-dom";
 
 const ProductBlock = (props :any) => {
+    const percent = props.productDsPrice / 100
     return (
         <div className={"cardPr"}>
             <div className={"sell"}>SELL</div>
@@ -14,8 +15,8 @@ const ProductBlock = (props :any) => {
                     <p>{props.prductInfo}</p>
                 </div>
             <div className={"pricess"}>
-                <p>{props.productPrice}</p>
-    <h6>{props.productPrice}</h6>
+                <p>{props.productPrice-(props.productPrice * percent) +"_$"}</p>
+    <h6>{props.productPrice + "_$"}</h6>
 
             </div>
             </div>
