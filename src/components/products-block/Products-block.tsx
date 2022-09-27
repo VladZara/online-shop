@@ -1,23 +1,40 @@
 import "./Products-block.css"
 import ProductBlock from "./product-block-content/Product-block";
-import React from "react";
+import axios from "axios";
+import {useState} from "react";
+import React, {useEffect} from 'react';
 
 
 
 
 const ProductsBlock = () => {
+    let [productsData,setProductsData] = useState([])
+    useEffect(() => {
+            axios.get('http://localhost:3002/api/products')
+                .then(res => {
+                    setProductsData(res.data.data)
+                    console.log(res.data.data)
+                })
+                .catch((ereor:any) =>{
+                    console.log(ereor)
+                })
+        }
+        ,[])
+
     return (
         <div className={"rail"}>
-            <h1>New</h1>
+            <div className={"tilAArow"}>
+                <h2>New</h2>
+                <div>
+                    <img src="./arow_img/arow-left.png" alt=""/>
+                    <img src="./arow_img/arow-right.png" alt=""/>
+                </div>
+            </div>
+
             <div className={"train"}>
-            <ProductBlock productImg="./img/imgGel.png" productPrice={"32.50$"} prductInfo={"slimming body gel"}  productName={"Gel "}/>
-             <ProductBlock productImg="./img/img_1.png" productPrice={"32.50$"} prductInfo={"slimming body gel"}  productName={"Gel "}/>
-            <ProductBlock productImg="./img/imgGel.png" productPrice={"32.50$"} prductInfo={"slimming body gel"}  productName={"Gel "}/>
-            <ProductBlock productImg="./img/img_1.png"  productPrice={"32.50$"} prductInfo={"slimming body gel"}  productName={"Gel "}/>
-            <ProductBlock productImg="./img/imgGel.png" productPrice={"32.50$"} prductInfo={"slimming body gel"}  productName={"Gel "}/>
-            <ProductBlock productImg="./img/imgGel.png" productPrice={"32.50$"} prductInfo={"slimming body gel"}  productName={"Gel "}/>
-            <ProductBlock productImg="./img/imgGel.png" productPrice={"32.50$"} prductInfo={"slimming body gel"}  productName={"Gel "}/>
-            <ProductBlock productImg="./img/imgGel.png" productPrice={"32.50$"} prductInfo={"slimming body gel"}  productName={"Gel "}/>
+                {productsData.map((res:any) =>{
+                    return (<ProductBlock productDsPrice={res.discount} productImg="./img/imgGel.png" productPrice={res.price} prductInfo={res.description}  productName={res.name}/>)
+                })}
             </div>
         </div>
     )
