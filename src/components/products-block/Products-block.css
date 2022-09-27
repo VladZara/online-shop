@@ -3,18 +3,31 @@ p, h2, h3,  h4,h5,h6{
 }
 .train {
     display: flex;
-    width: 3120px;
     height: 470px;
-    justify-content: space-around;
-    flex-direction: row;
     font-family: 'Gilroy';
     margin-top: 100px;
 }
 .rail{
-    height: 650px;
-    width: 1570px;
+    height: 665px;
+    width: 1760px;
     margin-top: 25px;
-    margin-left: 100px;
-    margin-right: 100px ;
+    margin-left: 120px;
+    margin-right: 120px ;
     overflow: hidden;
+}
+.tilAArow{
+    display: flex;
+    margin-right: 120px;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.tilAArow div{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.tilAArow div img{
+    width: 20px;
+    height: 10px;
 }

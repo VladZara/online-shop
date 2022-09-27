@@ -1,7 +1,8 @@
 .cardPr{
     width: 370px;
-    height: 470px;
-display: flex;
+    height: 460px;
+    display: flex;
+    margin-right: 140px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -31,7 +32,7 @@ height: 20px;
 }
 
 .sell{
-    background-color: red;
+    background-color: #fd3465;
     color: #FFFFFF;
     width: 56px;
     height: 56px;
@@ -43,4 +44,7 @@ height: 20px;
 }
 .pricess{
     display: flex;
+    align-items: center;
+    width: 107px;
+    justify-content: space-between;
 }
